@@ -310,6 +310,7 @@ export default function Home() {
                                 </InputGroup>
                             </Header>
                             <Scroller>
+                                hello
                                 {
                                     photos.map((item, key) => (
                                         <img src={item} alt="img" key={key} />
