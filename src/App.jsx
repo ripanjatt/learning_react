@@ -2,7 +2,7 @@
 import Home from "./components/Home";
 import ErrorPage from "./components/ErrorPage";
 import GlobalCss from "./css/GlobalCss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => (
   <>
