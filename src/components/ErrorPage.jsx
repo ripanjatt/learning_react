@@ -16,7 +16,7 @@ export default function ErrorPage() {
             <h2>Page not found!</h2>
             <Button
                 variant="primary"
-                onClick={() => (window.location.href = "/learn_react")}>
+                onClick={() => (window.location.href = "/learning_react")}>
                 Go to Homepage!
             </Button>
         </Container>
