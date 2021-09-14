@@ -9,8 +9,7 @@ const App = () => (
     <GlobalCss />
     <Router>
       <Switch>
-        <Route exact path="/home" component={Home} />
-        {/* <Route path="/home" component={Home} /> */}
+        <Route exact path="/" component={Home} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>
